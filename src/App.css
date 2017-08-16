@@ -13,3 +13,12 @@
     font-family: 'Teko', sans-serif;
     letter-spacing: 1px;
 }
+
+.bottomnote {
+    position: fixed;
+    top: 95%;
+    left: 0;
+    width: 100%;
+    font-size: 15px;
+    text-decoration: underline;
+}
