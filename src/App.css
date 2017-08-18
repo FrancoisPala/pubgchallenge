@@ -1,15 +1,13 @@
 .sentence {
     text-align: center;
     left: 0;
-    /*line-height: 200px;*/
     margin: auto;
     margin-top: -100px;
     position: absolute;
-    top: 50%;
+    top: 30%;
     width: 100%;
     font-size: 42px;
     color: gold;
-    background: black;
     font-family: 'Teko', sans-serif;
     letter-spacing: 1px;
 }
@@ -21,4 +19,33 @@
     width: 100%;
     font-size: 15px;
     text-decoration: underline;
+}
+
+#menuChoice {
+	min-width: 696px;
+	list-style: none;
+	padding-top: 20px;
+}
+
+#menuChoice button {
+    display: inline;
+    margin-right: 20px;
+    margin-left: 20px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: gold;
+    color: #222222;
+    text-decoration: unset;
+    padding-bottom: 0;
+
+    font-family: 'Teko', sans-serif;
+    font-size: 42px;
+    border-color: burlywood;
+    cursor: pointer;
+}
+
+#table {
+    display: table;   /* Allow the centering to work */
+	margin: 0 auto;
+    top: 0;
 }

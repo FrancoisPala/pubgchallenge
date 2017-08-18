@@ -1,5 +1,6 @@
 import Locations from './locations';
-import KillAmount from './killAmount'
+import KillAmount from './killAmount';
+import Use from './use';
 
 const first = [
 	{
@@ -11,7 +12,12 @@ const first = [
 		name: "Kill",
 		table: KillAmount,
 		phrase: 'Kill at least ',
-	}
+	},
+	{
+		name: "Use",
+		table: Use,
+		phrase: 'Only use ',
+	},
 ];
 
 export default first;
